@@ -8,6 +8,8 @@
 
 #import "RNKissmetrics.h"
 
+#import "RCTLog.h"
+
 @implementation RNKissmetrics
 
 RCT_EXPORT_MODULE();
