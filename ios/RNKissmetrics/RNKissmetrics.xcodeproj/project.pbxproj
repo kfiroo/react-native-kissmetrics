@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B1099FD01E13EB570056633B /* RNKissmetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = B1099FCF1E13EB570056633B /* RNKissmetrics.m */; };
 		B1099FD11E13EB570056633B /* RNKissmetrics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1099FCE1E13EB570056633B /* RNKissmetrics.h */; };
+		B109A0281E13F3440056633B /* KISSmetricsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B109A0271E13F3440056633B /* KISSmetricsSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		B1099FCB1E13EB570056633B /* libRNKissmetrics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNKissmetrics.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1099FCE1E13EB570056633B /* RNKissmetrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNKissmetrics.h; sourceTree = "<group>"; };
 		B1099FCF1E13EB570056633B /* RNKissmetrics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNKissmetrics.m; sourceTree = "<group>"; };
+		B109A0271E13F3440056633B /* KISSmetricsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KISSmetricsSDK.framework; path = KissmetricsSDK/KISSmetricsSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B109A0281E13F3440056633B /* KISSmetricsSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 		B1099FC21E13EB570056633B = {
 			isa = PBXGroup;
 			children = (
+				B109A0261E13F3340056633B /* Frameworks */,
 				B1099FCD1E13EB570056633B /* RNKissmetrics */,
 				B1099FCC1E13EB570056633B /* Products */,
 			);
@@ -64,6 +68,14 @@
 				B1099FCF1E13EB570056633B /* RNKissmetrics.m */,
 			);
 			path = RNKissmetrics;
+			sourceTree = "<group>";
+		};
+		B109A0261E13F3340056633B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B109A0271E13F3440056633B /* KISSmetricsSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -6,8 +6,8 @@
 //  Copyright © 2016 Kfir Golan. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "RCTBridgeModule.h"
 
-@interface RNKissmetrics : NSObject
+@interface RNKissmetrics : NSObject <RCTBridgeModule>
 
 @end
