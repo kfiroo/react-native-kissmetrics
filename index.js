@@ -1,5 +1,5 @@
 'use strict';
 
-const RNKissmetrics = require('./src/RNKissmetrics');
+const RNKissmetrics = require('react-native').NativeModules.RNKissmetrics;
 
 module.exports = RNKissmetrics;
