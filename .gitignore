@@ -1,8 +1,6 @@
 
 /.idea/
 .DS_Store
-/ios/RNKissmetrics/RNKissmetrics.xcodeproj/project.xcworkspace/xcuserdata/kfirgolan.xcuserdatad/UserInterfaceState.xcuserstate
-
 
 # Xcode
 #
@@ -27,3 +25,4 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+*.xcuserstate
