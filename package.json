@@ -1,0 +1,9 @@
+{
+  "name": "react-native-kissmetrics",
+  "version": "1.0.0",
+  "description": "Kissmetrics SDK for react-native",
+  "main": "index.js",
+  "repository": "https://github.com/kfiroo/react-native-kissmetrics.git",
+  "author": "kfiroo <kfirgolan@gmail.com>",
+  "license": "MIT"
+}
