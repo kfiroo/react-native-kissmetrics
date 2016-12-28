@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B1099FD01E13EB570056633B /* RNKissmetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = B1099FCF1E13EB570056633B /* RNKissmetrics.m */; };
 		B1099FD11E13EB570056633B /* RNKissmetrics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1099FCE1E13EB570056633B /* RNKissmetrics.h */; };
-		B10ABFF31E14384000E627D0 /* KISSmetricsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10ABFF21E14384000E627D0 /* KISSmetricsSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +28,6 @@
 		B1099FCB1E13EB570056633B /* libRNKissmetrics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNKissmetrics.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1099FCE1E13EB570056633B /* RNKissmetrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNKissmetrics.h; sourceTree = "<group>"; };
 		B1099FCF1E13EB570056633B /* RNKissmetrics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNKissmetrics.m; sourceTree = "<group>"; };
-		B10ABFF21E14384000E627D0 /* KISSmetricsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KISSmetricsSDK.framework; path = KissmetricsSDK/KISSmetricsSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10ABFF31E14384000E627D0 /* KISSmetricsSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +70,6 @@
 		B109A0261E13F3340056633B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B10ABFF21E14384000E627D0 /* KISSmetricsSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -255,10 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = S8M2367AJ3;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/KissmetricsSDK",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -269,10 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = S8M2367AJ3;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/KissmetricsSDK",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
