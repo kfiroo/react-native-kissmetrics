@@ -9,6 +9,9 @@
 #import "RNKissmetrics.h"
 
 #import "RCTLog.h"
+#import "RCTBridge.h"
+#import "RCTConvert.h"
+#import "RCTUtils.h"
 
 #import <KISSmetricsSDK/KISSmetricsAPI.h>
 
